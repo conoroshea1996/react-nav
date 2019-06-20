@@ -1,0 +1,23 @@
+.toggleBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 32px;
+    width: 24px;
+    border: none;
+    background: transparent;
+    margin-left: 8px;
+}
+.toggleBtn:focus{
+    outline: none;
+}
+.toggleBtn-line{
+    width: 24px;
+    background: whitesmoke;
+    height: 4px;
+}
+@media only screen and (min-width: 800px) {
+    .toggleBtn{
+        display: none;
+    }
+   }
